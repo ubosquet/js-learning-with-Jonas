@@ -78,7 +78,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #9c0e36;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -158,10 +158,14 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: rgb(13, 116, 13);
 }
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #9c425b;
+}
+
+.hidden {
+  display: none;
 }

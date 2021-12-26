@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: rgb(255, 247, 201);
-  font-family: Arial;
+  background-color: rgb(252, 247, 221);
+  font-family: Arial Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 50px;
 }
@@ -26,11 +26,11 @@ p {
 }
 
 .first {
-  color: red;
+  color: rgb(145, 12, 12);
 }
 
 #your-name {
-  background-color: rgb(255, 220, 105);
+  background-color: rgb(206, 180, 94);
   border: 5px solid #444;
   width: 400px;
   padding: 25px;
@@ -44,7 +44,7 @@ button {
 }
 
 a {
-  background-color: yellowgreen;
+  background-color: rgb(129, 170, 46);
 }
 
 #course-image {
@@ -52,5 +52,5 @@ a {
 }
 
 #your-name h2 {
-  color: olivedrab;
+  color: rgb(80, 114, 12);
 }

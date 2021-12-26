@@ -1,8 +1,90 @@
+///////////////////////////////////
+
+const bill = 40;
+let tips = (bill >= 50 && bill <= 300) ? bill * 0.15 : bill * 0.20;
+let finalBill = bill + tips;
+
+console,console.log(`The tip is : ${tips}`);
+console,console.log(`The Final Bill is : ${finalBill}`);
+
 /*
-////////////////////////////////////
-// Linking a JavaScript File
-let js = "amazing";
-console.log(40 + 8 + 23 - 10);
+const today = prompt("Enter the day: ") ;
+
+if (today == 'Monday'){
+  console.log("Plan course");
+} 
+else if (today === "Tuesday"){
+  console.log("Fitness day");
+}
+else if (today === "Wednesday" || today === "Thursday"){
+  console.log("Eat Healthy day");
+}
+else if (today === "Friday"){
+  console.log("Freedom day");
+}
+else if (today === "Saturday"){
+  console.log("Study day");
+}
+else {
+  console.log("Just chill you worked too hard !!")
+}
+
+
+
+
+let avgDolphins = (100+108+10) / 3;
+let avgKoalas = (100+108+102) / 3;
+//console.log(`Dolphins : ${avgDolphins}, Koalas : ${avgKoalas}`);
+
+if(avgDolphins > avgKoalas && avgDolphins >=100){
+ 
+  console.log(`Dolphins Win : ${avgDolphins}`);
+  console.log(`Dolphins : ${avgDolphins}, Koalas : ${avgKoalas}`);
+  
+}
+else if (avgKoalas > avgDolphins && avgKoalas >=100){
+  
+  console.log(`Koalas Win : ${avgDolphins}`);
+  console.log(`Koalas : ${avgKoalas}, Dolphins : ${avgDolphins} `);
+  
+}
+ else if (avgDolphins === avgKoalas && avgDolphins >= 100 && avgKoalas >=100){
+    console.log(`It's Draw !`);
+     console.log(`Dolphins : ${avgDolphins}, Koalas : ${avgKoalas}`);
+  }
+  else { 
+    console.log("You both lost the trophy.")
+
+  }
+*/
+//
+/*Linking a JavaScript File
+let markMass = 95;
+let markHeight = 1.88;
+let johnMass = 85;
+let johnHeight = 1.76;
+
+let markBMI = markMass / (markHeight ** 2);
+console.log(markBMI);
+
+// John BMI 
+
+let johnBMI = johnMass / (johnHeight ** 2);
+console.log(johnBMI)
+
+
+
+if (markBMI > johnBMI ) {
+  console.log(`Mark's BMI ${markBMI} is higher than John's BMI ${johnBMI} !`)
+}
+  
+else {
+  console.log(`John's BMI (${markBMI}) is higher than Mark's BMI (${johnBMI}) !`)
+}
+ 
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
 
 ////////////////////////////////////
 // Values and Variables
